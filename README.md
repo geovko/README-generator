@@ -1,5 +1,5 @@
 # q  
-  [![License](https://img.shields.io/badge/AFL-3.0)](https://opensource.org/licenses/AFL-3.0)
+  [![License](https://img.shields.io/badge/AFL-3.0.svg)](https://opensource.org/licenses/AFL-3.0)
 
   ## Description  
 
