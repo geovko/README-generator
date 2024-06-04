@@ -4,7 +4,17 @@ function renderLicenseBadge(license) {
   if (license == '') {
     return '';
   } else {
-    return `![License](https://img.shields.io/badge/${license})`;
+    const str = license;
+    let result = '';
+    for (i=0; i <license.length; i++) {
+      if (str[i] == '-') {
+        result += '%20';
+      } else {
+        result += str[i];
+      }
+    }
+    result += '-blue';
+    return `![License](https://img.shields.io/badge/${result}.svg)`;
   }
 }
 
@@ -31,8 +41,10 @@ function renderLicenseSection(license) {
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  return `# ${data.title}  
+  return `<div align="center">
+  # ${data.title}  
   ${renderLicenseSection(data.license)}
+  </div>
 
   ## Description  
 
@@ -60,7 +72,7 @@ function generateMarkdown(data) {
   
   ## Questions  
   
-  If you'd like to see more of my projects, please visit [My GitHub Profile](https://github.com/${data.username}), or if you'd like to reach me directly, please contact my [email](${data.email}).  
+  If you'd like to see more of my projects, please visit [My GitHub Profile](https://github.com/${data.username}), or if you'd like to reach me directly, please contact me through this email: ${data.email}.  
   
   `;
 }
