@@ -1,29 +1,31 @@
-# q  
-  [![License](https://img.shields.io/badge/AFL%203.0-blue.svg)](https://opensource.org/licenses/AFL-3.0)
+<div align="center">
+  # A really good title  
+  [![License](https://img.shields.io/badge/MIT-blue.svg)](https://opensource.org/licenses/MIT)
+  </div>
 
   ## Description  
 
-  w  
+  something that describes it very well  
   
   ## Installation  
   
-  e  
+  you install it according to the README file  
   
   ## Usage  
   
-  r  
+  you use it  
   
   ## How to Contribute  
   
-  t  
+  fiscally?  
   
   ## Tests  
   
-  y  
+  n/a  
   
   ## License  
   
-  AFL-3.0  
+  MIT  
   
   ## Questions  
   
