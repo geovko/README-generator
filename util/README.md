@@ -3,6 +3,16 @@
   [![License](https://img.shields.io/badge/MIT-blue.svg)](https://opensource.org/licenses/MIT)
   </div>
 
+  ## Table of Contents
+
+  - [Description](#Description)   
+  - [Installation](#Installation) 
+  - [Usage](#Usage)   
+  - [How To Contribute](#How-to-Contribute)  
+  - [Tests](#Tests)  
+  - [License](#License)  
+  - [Questions](#Questions)  
+
   ## Description  
 
   something that describes it very well  
@@ -25,7 +35,7 @@
   
   ## License  
   
-  MIT  
+  This application is covered under the license known as MIT.  
   
   ## Questions  
   
