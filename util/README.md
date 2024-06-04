@@ -23,7 +23,7 @@
   
   ## Usage  
   
-  you use it  
+  you use it.  
   
   ## How to Contribute  
   
