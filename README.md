@@ -1,7 +1,7 @@
 <div align="center">
   # README Generator 
   <br>
-  [![License](https://img.shields.io/badge/MIT-blue.svg)](https://opensource.org/licenses/MIT)
+  [![License MIT](https://img.shields.io/badge/MIT-blue.svg)](https://opensource.org/licenses/MIT)
   </div>
 
   ## Description  
