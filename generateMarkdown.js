@@ -43,9 +43,9 @@ function renderLicenseSection(license) {
 function generateMarkdown(data) {
   return `<div align="center">
   # ${data.title}  
-  <br>
-  ${renderLicenseSection(data.license)}
   </div>
+
+  ${renderLicenseSection(data.license)}
 
   ## Table of Contents
 
