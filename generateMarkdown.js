@@ -14,7 +14,7 @@ function renderLicenseBadge(license) {
       }
     }
     result += '-blue';
-    return `![License ${license}](https://img.shields.io/badge/${result}.svg)`;
+    return `![${license} Badge](https://img.shields.io/badge/${result}.svg)`;
   }
 }
 
@@ -44,7 +44,6 @@ function generateMarkdown(data) {
   return `<div align="center">
 
   # ${data.title}  
-
   ${renderLicenseSection(data.license)}
 
 </div>

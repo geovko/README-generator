@@ -1,7 +1,6 @@
 <div align="center">
 
   # A really good title  
-  
   [![License](https://img.shields.io/badge/MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
   </div>
